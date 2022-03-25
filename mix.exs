@@ -41,9 +41,8 @@ defmodule BlockKeys.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:keccakf1600, "~> 2.0", hex: :keccakf1600_otp23},
-      {:excoveralls, "~> 0.10", only: :test},
-      {:libsecp256k1, "~> 0.1.9"}
+      {:ex_keccak, "~> 0.4.0"},
+      {:excoveralls, "~> 0.10", only: :test}
     ]
   end
 end
