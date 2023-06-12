@@ -41,7 +41,7 @@ defmodule BlockKeys.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:ex_keccak, "~> 0.4.0"},
+      {:ex_keccak, "~> 0.7.1"},
       {:excoveralls, "~> 0.10", only: :test}
     ]
   end
